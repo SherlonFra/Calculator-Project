@@ -13,10 +13,8 @@ namespace Calculator_Project
     public partial class Form1 : Form
     {
         List<Panel> listPanel = new List<Panel>();
-        int index;
+        
 
-        Double num1, num2;
-        String math = "";
         public Form1()
         {
             InitializeComponent();
@@ -29,14 +27,14 @@ namespace Calculator_Project
         private void btnConv_Click(object sender, EventArgs e)
         {
             double i = double.Parse(this.amount_txt.Text);
-            if(txtfrom.SelectedItem=="Miles"&& txtTo.SelectedItem=="Kilometers")
+            if (txtfrom.SelectedItem == "Miles" && txtTo.SelectedItem == "Kilometers")
             {
-                double btnConv =(double) (i * 1.609);
-                display_txt.Text = "Converted Amount: "+btnConv;
+                double btnConv = (double)(i * 1.609);
+                display_txt.Text = "Converted Amount: " + btnConv;
             }
             if (txtfrom.SelectedItem == "Kilometers" && txtTo.SelectedItem == "Miles")
             {
-                double btnConv = (double) (i / 1.609);
+                double btnConv = (double)(i / 1.609);
                 display_txt.Text = "Converted Amount: " + btnConv;
             }
 
@@ -77,17 +75,17 @@ namespace Calculator_Project
 
         private void btnnextcalc_Click(object sender, EventArgs e)
         {
-            
+            pnlCalculator.Visible = true;
+            pnlConverter.Visible = false;
            
-            if (index > 0)
-                listPanel[--index].BringToFront();
 
         }
 
         private void btnnextconvert_Click(object sender, EventArgs e)
         {
-            if (index < listPanel.Count - 1)
-                listPanel[++index].BringToFront();
+            pnlCalculator.Visible = false;
+            pnlConverter.Visible = true;
+           
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -97,9 +95,7 @@ namespace Calculator_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listPanel.Add(panel2);
-            listPanel.Add(panel1);
-            listPanel[index].BringToFront();
+          
         }
     }
 }

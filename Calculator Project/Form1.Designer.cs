@@ -56,192 +56,222 @@ namespace Calculator_Project
             this.label3 = new System.Windows.Forms.Label();
             this.display_txt = new System.Windows.Forms.Label();
             this.btnConv = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.pnlConverter = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlCalculator = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pnlConverter.SuspendLayout();
+            this.pnlCalculator.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtDisplay
             // 
-            this.txtDisplay.Location = new System.Drawing.Point(63, 46);
+            this.txtDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtDisplay.Location = new System.Drawing.Point(59, 57);
             this.txtDisplay.Name = "txtDisplay";
-            this.txtDisplay.Size = new System.Drawing.Size(307, 22);
+            this.txtDisplay.Size = new System.Drawing.Size(294, 22);
             this.txtDisplay.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(63, 101);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(62, 91);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 72);
             this.button1.TabIndex = 1;
             this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.numberValue);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(177, 101);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(173, 91);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 74);
             this.button2.TabIndex = 2;
             this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.numberValue);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(282, 101);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(278, 92);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 73);
             this.button3.TabIndex = 3;
             this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.numberValue);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(63, 160);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(59, 171);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 65);
             this.button4.TabIndex = 4;
             this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.numberValue);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(177, 160);
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(173, 171);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(75, 65);
             this.button5.TabIndex = 5;
             this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.numberValue);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(282, 160);
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(278, 171);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(75, 65);
             this.button6.TabIndex = 6;
             this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.numberValue);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(63, 212);
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.Location = new System.Drawing.Point(59, 243);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(75, 71);
             this.button7.TabIndex = 7;
             this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.numberValue);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(177, 212);
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button8.ForeColor = System.Drawing.Color.Black;
+            this.button8.Location = new System.Drawing.Point(173, 243);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(75, 71);
             this.button8.TabIndex = 8;
             this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.numberValue);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(282, 212);
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button9.ForeColor = System.Drawing.Color.Black;
+            this.button9.Location = new System.Drawing.Point(278, 243);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.Size = new System.Drawing.Size(75, 71);
             this.button9.TabIndex = 9;
             this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.numberValue);
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(63, 271);
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button10.ForeColor = System.Drawing.Color.Black;
+            this.button10.Location = new System.Drawing.Point(59, 320);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.Size = new System.Drawing.Size(75, 81);
             this.button10.TabIndex = 10;
             this.button10.Text = "0";
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(177, 271);
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button11.Location = new System.Drawing.Point(173, 320);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 11;
             this.button11.Text = "+";
-            this.button11.UseVisualStyleBackColor = true;
+            this.button11.UseVisualStyleBackColor = false;
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(282, 271);
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button12.Location = new System.Drawing.Point(278, 320);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 12;
             this.button12.Text = "-";
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.UseVisualStyleBackColor = false;
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(63, 329);
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button13.Location = new System.Drawing.Point(278, 349);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
             this.button13.TabIndex = 13;
             this.button13.Text = "*";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.UseVisualStyleBackColor = false;
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(177, 329);
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button14.Location = new System.Drawing.Point(173, 349);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 14;
             this.button14.Text = "/";
-            this.button14.UseVisualStyleBackColor = true;
+            this.button14.UseVisualStyleBackColor = false;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(282, 329);
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button15.Location = new System.Drawing.Point(173, 378);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 15;
             this.button15.Text = "=";
-            this.button15.UseVisualStyleBackColor = true;
+            this.button15.UseVisualStyleBackColor = false;
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(63, 382);
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button16.Location = new System.Drawing.Point(59, 415);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 16;
             this.button16.Text = "clear";
-            this.button16.UseVisualStyleBackColor = true;
+            this.button16.UseVisualStyleBackColor = false;
             // 
             // btnnextconvert
             // 
-            this.btnnextconvert.Location = new System.Drawing.Point(216, 33);
+            this.btnnextconvert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnnextconvert.Location = new System.Drawing.Point(216, 12);
             this.btnnextconvert.Name = "btnnextconvert";
-            this.btnnextconvert.Size = new System.Drawing.Size(89, 23);
+            this.btnnextconvert.Size = new System.Drawing.Size(89, 44);
             this.btnnextconvert.TabIndex = 17;
             this.btnnextconvert.Text = "Converter";
-            this.btnnextconvert.UseVisualStyleBackColor = true;
+            this.btnnextconvert.UseVisualStyleBackColor = false;
             this.btnnextconvert.Click += new System.EventHandler(this.btnnextconvert_Click);
             // 
             // btnnextcalc
             // 
-            this.btnnextcalc.Location = new System.Drawing.Point(87, 33);
+            this.btnnextcalc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnnextcalc.Location = new System.Drawing.Point(87, 12);
             this.btnnextcalc.Name = "btnnextcalc";
-            this.btnnextcalc.Size = new System.Drawing.Size(94, 23);
+            this.btnnextcalc.Size = new System.Drawing.Size(94, 44);
             this.btnnextcalc.TabIndex = 19;
             this.btnnextcalc.Text = "Calculator";
-            this.btnnextcalc.UseVisualStyleBackColor = true;
+            this.btnnextcalc.UseVisualStyleBackColor = false;
             this.btnnextcalc.Click += new System.EventHandler(this.btnnextcalc_Click);
             // 
             // label1
@@ -255,6 +285,7 @@ namespace Calculator_Project
             // 
             // amount_txt
             // 
+            this.amount_txt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.amount_txt.Location = new System.Drawing.Point(128, 49);
             this.amount_txt.Name = "amount_txt";
             this.amount_txt.Size = new System.Drawing.Size(100, 22);
@@ -262,6 +293,7 @@ namespace Calculator_Project
             // 
             // txtfrom
             // 
+            this.txtfrom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtfrom.FormattingEnabled = true;
             this.txtfrom.Items.AddRange(new object[] {
             "Miles",
@@ -275,6 +307,7 @@ namespace Calculator_Project
             // 
             // txtTo
             // 
+            this.txtTo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtTo.FormattingEnabled = true;
             this.txtTo.Items.AddRange(new object[] {
             "Miles",
@@ -315,64 +348,31 @@ namespace Calculator_Project
             // 
             // btnConv
             // 
+            this.btnConv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnConv.Location = new System.Drawing.Point(235, 49);
             this.btnConv.Name = "btnConv";
             this.btnConv.Size = new System.Drawing.Size(75, 23);
             this.btnConv.TabIndex = 27;
             this.btnConv.Text = "Convert";
-            this.btnConv.UseVisualStyleBackColor = true;
+            this.btnConv.UseVisualStyleBackColor = false;
             this.btnConv.Click += new System.EventHandler(this.btnConv_Click);
             // 
-            // panel1
+            // pnlConverter
             // 
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.txtfrom);
-            this.panel1.Controls.Add(this.btnConv);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.display_txt);
-            this.panel1.Controls.Add(this.amount_txt);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txtTo);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(21, 62);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(425, 465);
-            this.panel1.TabIndex = 28;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.button11);
-            this.panel2.Controls.Add(this.txtDisplay);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button16);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button15);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button14);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button13);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.button12);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button9);
-            this.panel2.Controls.Add(this.button10);
-            this.panel2.Location = new System.Drawing.Point(28, 59);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(419, 465);
-            this.panel2.TabIndex = 29;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(63, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Calculator";
+            this.pnlConverter.Controls.Add(this.label5);
+            this.pnlConverter.Controls.Add(this.txtfrom);
+            this.pnlConverter.Controls.Add(this.btnConv);
+            this.pnlConverter.Controls.Add(this.label1);
+            this.pnlConverter.Controls.Add(this.display_txt);
+            this.pnlConverter.Controls.Add(this.amount_txt);
+            this.pnlConverter.Controls.Add(this.label3);
+            this.pnlConverter.Controls.Add(this.txtTo);
+            this.pnlConverter.Controls.Add(this.label2);
+            this.pnlConverter.Location = new System.Drawing.Point(21, 62);
+            this.pnlConverter.Name = "pnlConverter";
+            this.pnlConverter.Size = new System.Drawing.Size(425, 465);
+            this.pnlConverter.TabIndex = 28;
+            this.pnlConverter.Visible = false;
             // 
             // label5
             // 
@@ -384,23 +384,70 @@ namespace Calculator_Project
             this.label5.Text = "Converter";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // pnlCalculator
+            // 
+            this.pnlCalculator.Controls.Add(this.label6);
+            this.pnlCalculator.Controls.Add(this.label4);
+            this.pnlCalculator.Controls.Add(this.button11);
+            this.pnlCalculator.Controls.Add(this.txtDisplay);
+            this.pnlCalculator.Controls.Add(this.button1);
+            this.pnlCalculator.Controls.Add(this.button2);
+            this.pnlCalculator.Controls.Add(this.button3);
+            this.pnlCalculator.Controls.Add(this.button16);
+            this.pnlCalculator.Controls.Add(this.button4);
+            this.pnlCalculator.Controls.Add(this.button15);
+            this.pnlCalculator.Controls.Add(this.button5);
+            this.pnlCalculator.Controls.Add(this.button14);
+            this.pnlCalculator.Controls.Add(this.button6);
+            this.pnlCalculator.Controls.Add(this.button13);
+            this.pnlCalculator.Controls.Add(this.button7);
+            this.pnlCalculator.Controls.Add(this.button12);
+            this.pnlCalculator.Controls.Add(this.button8);
+            this.pnlCalculator.Controls.Add(this.button9);
+            this.pnlCalculator.Controls.Add(this.button10);
+            this.pnlCalculator.Location = new System.Drawing.Point(28, 59);
+            this.pnlCalculator.Name = "pnlCalculator";
+            this.pnlCalculator.Size = new System.Drawing.Size(419, 465);
+            this.pnlCalculator.TabIndex = 29;
+            this.pnlCalculator.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(146, 38);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(143, 16);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Enter your values below ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Permanent Marker", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(173, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 20);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Calculator";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(459, 540);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlCalculator);
+            this.Controls.Add(this.pnlConverter);
             this.Controls.Add(this.btnnextcalc);
             this.Controls.Add(this.btnnextconvert);
             this.Name = "Form1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlConverter.ResumeLayout(false);
+            this.pnlConverter.PerformLayout();
+            this.pnlCalculator.ResumeLayout(false);
+            this.pnlCalculator.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -434,10 +481,11 @@ namespace Calculator_Project
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label display_txt;
         private System.Windows.Forms.Button btnConv;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlConverter;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlCalculator;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
     }
 }
 
