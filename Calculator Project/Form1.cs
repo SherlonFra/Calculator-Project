@@ -92,6 +92,17 @@ namespace Calculator_Project
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void txtDisplay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void NumEvent(object sender, EventArgs e)
         {
             if (txtResult.Text == "0"||operandperformed)
