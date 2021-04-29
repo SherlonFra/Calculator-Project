@@ -83,7 +83,7 @@ namespace Calculator_Project
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(62, 91);
+            this.button1.Location = new System.Drawing.Point(62, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 72);
             this.button1.TabIndex = 1;
@@ -95,7 +95,7 @@ namespace Calculator_Project
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(173, 91);
+            this.button2.Location = new System.Drawing.Point(173, 115);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 74);
             this.button2.TabIndex = 2;
@@ -107,7 +107,7 @@ namespace Calculator_Project
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(278, 92);
+            this.button3.Location = new System.Drawing.Point(278, 116);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 73);
             this.button3.TabIndex = 3;
@@ -119,7 +119,7 @@ namespace Calculator_Project
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(59, 171);
+            this.button4.Location = new System.Drawing.Point(59, 195);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 65);
             this.button4.TabIndex = 4;
@@ -131,7 +131,7 @@ namespace Calculator_Project
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(173, 171);
+            this.button5.Location = new System.Drawing.Point(173, 195);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 65);
             this.button5.TabIndex = 5;
@@ -143,7 +143,7 @@ namespace Calculator_Project
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(278, 171);
+            this.button6.Location = new System.Drawing.Point(278, 195);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 65);
             this.button6.TabIndex = 6;
@@ -155,7 +155,7 @@ namespace Calculator_Project
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(59, 243);
+            this.button7.Location = new System.Drawing.Point(59, 267);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 71);
             this.button7.TabIndex = 7;
@@ -167,7 +167,7 @@ namespace Calculator_Project
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(173, 243);
+            this.button8.Location = new System.Drawing.Point(173, 267);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 71);
             this.button8.TabIndex = 8;
@@ -179,7 +179,7 @@ namespace Calculator_Project
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(278, 243);
+            this.button9.Location = new System.Drawing.Point(278, 267);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 71);
             this.button9.TabIndex = 9;
@@ -191,7 +191,7 @@ namespace Calculator_Project
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(59, 320);
+            this.button10.Location = new System.Drawing.Point(59, 344);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 81);
             this.button10.TabIndex = 10;
@@ -202,7 +202,7 @@ namespace Calculator_Project
             // bAdd
             // 
             this.bAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bAdd.Location = new System.Drawing.Point(173, 349);
+            this.bAdd.Location = new System.Drawing.Point(173, 373);
             this.bAdd.Name = "bAdd";
             this.bAdd.Size = new System.Drawing.Size(75, 23);
             this.bAdd.TabIndex = 11;
@@ -213,7 +213,7 @@ namespace Calculator_Project
             // bSub
             // 
             this.bSub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bSub.Location = new System.Drawing.Point(278, 320);
+            this.bSub.Location = new System.Drawing.Point(278, 344);
             this.bSub.Name = "bSub";
             this.bSub.Size = new System.Drawing.Size(75, 23);
             this.bSub.TabIndex = 12;
@@ -224,7 +224,7 @@ namespace Calculator_Project
             // bMul
             // 
             this.bMul.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bMul.Location = new System.Drawing.Point(278, 349);
+            this.bMul.Location = new System.Drawing.Point(278, 373);
             this.bMul.Name = "bMul";
             this.bMul.Size = new System.Drawing.Size(75, 23);
             this.bMul.TabIndex = 13;
@@ -235,7 +235,7 @@ namespace Calculator_Project
             // bDiv
             // 
             this.bDiv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bDiv.Location = new System.Drawing.Point(173, 378);
+            this.bDiv.Location = new System.Drawing.Point(173, 402);
             this.bDiv.Name = "bDiv";
             this.bDiv.Size = new System.Drawing.Size(75, 23);
             this.bDiv.TabIndex = 14;
@@ -246,7 +246,7 @@ namespace Calculator_Project
             // bEq
             // 
             this.bEq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bEq.Location = new System.Drawing.Point(278, 378);
+            this.bEq.Location = new System.Drawing.Point(278, 402);
             this.bEq.Name = "bEq";
             this.bEq.Size = new System.Drawing.Size(75, 23);
             this.bEq.TabIndex = 15;
@@ -257,7 +257,7 @@ namespace Calculator_Project
             // bC
             // 
             this.bC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bC.Location = new System.Drawing.Point(59, 415);
+            this.bC.Location = new System.Drawing.Point(59, 439);
             this.bC.Name = "bC";
             this.bC.Size = new System.Drawing.Size(75, 23);
             this.bC.TabIndex = 16;
@@ -430,7 +430,7 @@ namespace Calculator_Project
             // lbResult
             // 
             this.lbResult.AutoSize = true;
-            this.lbResult.Location = new System.Drawing.Point(56, 38);
+            this.lbResult.Location = new System.Drawing.Point(59, 94);
             this.lbResult.Name = "lbResult";
             this.lbResult.Size = new System.Drawing.Size(0, 17);
             this.lbResult.TabIndex = 24;
@@ -438,7 +438,7 @@ namespace Calculator_Project
             // bCE
             // 
             this.bCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.bCE.Location = new System.Drawing.Point(173, 414);
+            this.bCE.Location = new System.Drawing.Point(173, 438);
             this.bCE.Name = "bCE";
             this.bCE.Size = new System.Drawing.Size(75, 23);
             this.bCE.TabIndex = 23;
@@ -449,7 +449,7 @@ namespace Calculator_Project
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button11.Location = new System.Drawing.Point(173, 320);
+            this.button11.Location = new System.Drawing.Point(173, 344);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 22;
