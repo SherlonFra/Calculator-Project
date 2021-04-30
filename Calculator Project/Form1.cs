@@ -37,7 +37,7 @@ namespace Calculator_Project
                 display_txt.Text = "Converted Amount: " + btnConv;
             }
 
-            if (txtfrom.SelectedItem == "Pounds" && txtTo.SelectedItem == "Kilograms")
+            else if (txtfrom.SelectedItem == "Pounds" && txtTo.SelectedItem == "Kilograms")
             {
                 double btnConv = (double)(i / 2.2046);
                 display_txt.Text = "Converted Amount: " + btnConv;
@@ -76,7 +76,7 @@ namespace Calculator_Project
         {
             pnlCalculator.Visible = true;
             pnlConverter.Visible = false;
-           
+
 
         }
 
@@ -84,7 +84,7 @@ namespace Calculator_Project
         {
             pnlCalculator.Visible = false;
             pnlConverter.Visible = true;
-           
+
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -105,7 +105,7 @@ namespace Calculator_Project
 
         private void NumEvent(object sender, EventArgs e)
         {
-            if (txtResult.Text == "0"||operandperformed)
+            if (txtResult.Text == "0" || operandperformed)
                 txtResult.Clear();
             Button btn = (Button)sender;
             txtResult.Text += btn.Text;
@@ -119,22 +119,13 @@ namespace Calculator_Project
             string newoperand = btn.Text;
             lbResult.Text = lbResult.Text + " " + txtResult.Text + " " + newoperand;
 
-            switch(operand)
+            switch (operand)
             {
-                case "+": 
-                    txtResult.Text = (result + Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "-":
-                    txtResult.Text = (result - Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "*":
-                    txtResult.Text = (result * Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "/":
-                    txtResult.Text = (result / Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                default: 
-                    break;
+                case "+": txtResult.Text = (result + Double.Parse(txtResult.Text)).ToString(); break;
+                case "-": txtResult.Text = (result - Double.Parse(txtResult.Text)).ToString(); break;
+                case "*": txtResult.Text = (result * Double.Parse(txtResult.Text)).ToString(); break;
+                case "/": txtResult.Text = (result / Double.Parse(txtResult.Text)).ToString(); break;
+                default: break;
             }
 
             result = Double.Parse(txtResult.Text);
@@ -143,7 +134,7 @@ namespace Calculator_Project
 
         private void bCE_Click(object sender, EventArgs e)
         {
-           txtResult.Text = "0";
+            txtResult.Text = "0";
         }
 
         private void bC_Click(object sender, EventArgs e)
@@ -161,20 +152,11 @@ namespace Calculator_Project
 
             switch (operand)
             {
-                case "+":
-                    txtResult.Text = (result + Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "-":
-                    txtResult.Text = (result - Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "*":
-                    txtResult.Text = (result * Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                case "/": 
-                    txtResult.Text = (result / Double.Parse(txtResult.Text)).ToString(); 
-                    break;
-                default: 
-                    break;
+                case "+": txtResult.Text = (result + Double.Parse(txtResult.Text)).ToString(); break;
+                case "-": txtResult.Text = (result - Double.Parse(txtResult.Text)).ToString(); break;
+                case "*": txtResult.Text = (result * Double.Parse(txtResult.Text)).ToString(); break;
+                case "/": txtResult.Text = (result / Double.Parse(txtResult.Text)).ToString(); break;
+                default: break;
             }
 
             result = Double.Parse(txtResult.Text);
@@ -185,7 +167,7 @@ namespace Calculator_Project
 
         private void button11_Click(object sender, EventArgs e)
         {
-            if (operandperformed && txtResult.Text.Contains("."))
+            if (!operandperformed && !txtResult.Text.Contains("."))
             {
                 txtResult.Text += ".";
             }
@@ -194,7 +176,7 @@ namespace Calculator_Project
                 txtResult.Text = "0";
             }
 
-            if (txtResult.Text.Contains("."))
+            if (!txtResult.Text.Contains("."))
             {
                 txtResult.Text += ".";
             }
